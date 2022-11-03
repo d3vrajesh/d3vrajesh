@@ -141,7 +141,7 @@ body {
 
 #anchor-about {
     background-image: url(https://d3vrajesh.github.io/d3vrajesh/docs/assets/images/about-bg.png);
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     background-size: cover;
     padding: 0 70px;
@@ -153,7 +153,7 @@ body {
 
 #anchor-services {
     background-image: url(https://d3vrajesh.github.io/d3vrajesh/docs/assets/images/slider1.jpg);
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     background-size: cover;
     padding: 0 70px;
@@ -165,7 +165,7 @@ body {
 
 #anchor-works {
     background-image: url(https://d3vrajesh.github.io/d3vrajesh/docs/assets/images/slider1.jpg);
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     background-size: cover;
     padding: 0 70px;
@@ -187,6 +187,14 @@ body {
     justify-content: center;
 }
 
+.solutions {
+    width: 50;
+}
+
+.development {
+    float: left;
+}
+
 #copyright {
     background-color: #0c6291;
     text-align: center;
@@ -196,4 +204,8 @@ body {
 
 .center-heading {
     text-align: center;
+}
+
+.padding-heading {
+    padding-bottom: 30px;
 }
