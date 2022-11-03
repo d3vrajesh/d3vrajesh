@@ -138,3 +138,9 @@ body {
     font-size: 18px;
     font-weight: 800;
 }
+
+#copyright {
+    background-color: #0c6291;
+    text-align: center;
+    padding: 10px;
+}
