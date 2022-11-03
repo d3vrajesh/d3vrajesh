@@ -68,7 +68,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 5px 80px;
-    background-color: cadetblue;
+    background-color: #fbfef9;
     box-shadow: 0 5px 20px rgb(150, 148, 148);
     position: sticky;
     top: 0;
@@ -90,13 +90,13 @@ body {
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: #a2649e;
     transition: 0.3s ease;
 }
 
 #navbar li a:hover,
 #navbar li a.active {
-    color: rgb(253, 195, 4);
+    color: #0c6291;
 }
 
 .logo {
