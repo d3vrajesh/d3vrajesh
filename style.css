@@ -139,7 +139,7 @@ body {
     font-weight: 800;
 }
 
-#anchor-about {
+#about {
     background-image: url(https://d3vrajesh.github.io/d3vrajesh/docs/assets/images/about-bg.png);
     height: 90vh;
     width: 100%;
@@ -151,7 +151,7 @@ body {
     justify-content: center;
 }
 
-#anchor-services {
+#services {
     background-image: url(https://d3vrajesh.github.io/d3vrajesh/docs/assets/images/slider1.jpg);
     height: 90vh;
     width: 100%;
@@ -163,7 +163,7 @@ body {
     justify-content: center;
 }
 
-#anchor-works {
+#works {
     background-image: url(https://d3vrajesh.github.io/d3vrajesh/docs/assets/images/slider1.jpg);
     height: 90vh;
     width: 100%;
@@ -175,7 +175,7 @@ body {
     justify-content: center;
 }
 
-#anchor-contact {
+#contact {
     background-image: url(https://d3vrajesh.github.io/d3vrajesh/docs/assets/images/slider1.jpg);
     height: 90vh;
     width: 100%;
@@ -187,12 +187,24 @@ body {
     justify-content: center;
 }
 
-.solutions {
-    width: 50;
-}
 
-.development {
+/* Create two equal columns that floats next to each other */
+
+.column {
     float: left;
+    width: 50%;
+    padding: 10px;
+    height: auto;
+    /* Should be removed. Only for demonstration */
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 #copyright {
@@ -208,4 +220,36 @@ body {
 
 .padding-heading {
     padding-bottom: 30px;
+}
+
+.center-text {
+    width: 100%;
+    text-align: center;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.no-list {
+    list-style: none;
+    width: 100%;
+}
+
+.left-text {
+    text-align: left;
+    color: #a2649e;
+    size: 20px;
+    font-weight: 600;
+}
+
+.right-text {
+    text-align: right;
+    color: #a2649e;
+    size: 20px;
+    font-weight: 600;
+}
+
+.right-head {
+    text-align: right;
 }
