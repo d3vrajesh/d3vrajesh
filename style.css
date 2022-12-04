@@ -101,18 +101,7 @@ font-family: 'Lato', sans-serif;
                     }
                     /* Home page */
                     
-                    #slider {
-                        background-image: url(https://d3vrajesh.github.io/d3vrajesh/docs/assets/images/sky-bg.jpg);
-                        height: 100vh;
-                        width: 100%;
-                        background-size: cover;
-                        padding: 0 70px;
-                        display: flex;
-                        flex-direction: column;
-                        align-items: flex-start;
-                        justify-content: center;
-                    }
-                    
+                     
                     #slider h4 {
                         padding-left: 3px;
                     }
