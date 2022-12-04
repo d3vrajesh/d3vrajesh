@@ -241,7 +241,15 @@ font-family: 'Lato', sans-serif;
                     .color-white {
                         color: #ffffff;
                     }
+                    .color-blue {
+                        color: #434e57;
+                    }
                     .bg-light {
+                        background-color: #f79521;
+                        width: 100%;
+                        padding: 10px;
+                    }
+                    .bg-dark {
                         background-color: #434e57;
                         width: 100%;
                         padding: 30px;
