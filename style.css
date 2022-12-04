@@ -46,14 +46,7 @@ font-family: 'Lato', sans-serif;
                         color: grey;
                         margin: 15px 0 2px 0;
                     }
-                    
-                    .section-p1 {
-                        margin: 40px 80px;
-                    }
-                    
-                    .section-m1 {
-                        margin: 40px 0;
-                    }
+ 
                     
                     body {
                         width: 100%;
@@ -102,27 +95,7 @@ font-family: 'Lato', sans-serif;
                     /* Home page */
                     
                      
-                    #slider h4 {
-                        padding-left: 3px;
-                    }
-                    
-                    #slider h3 {
-                        padding-left: 3px;
-                        padding-bottom: 10px;
-                    }
-                    
-                    #slider button {
-                        background-image: url(https://d3vrajesh.github.io/d3vrajesh/docs/assets/images/button-bg.png);
-                        background-color: transparent;
-                        border: 0;
-                        padding: 15px 15px;
-                        background-repeat: no-repeat;
-                        cursor: pointer;
-                        background-size: contain;
-                        font-size: 18px;
-                        font-weight: 800;
-                    }
-                    
+                     
                     #about {
                         background-image: url(https://d3vrajesh.github.io/d3vrajesh/docs/assets/images/sky-dark.jpg);
                         height: 90vh;
@@ -253,4 +226,65 @@ font-family: 'Lato', sans-serif;
                         background-color: #434e57;
                         width: 100%;
                         padding: 30px;
+                    }
+                    @media screen and (max-width: 480px) {
+                        #header {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            padding: 5px 20px;
+                            background-color: #434e57;
+                            box-shadow: 0 2px 10px #f1c691;
+                            position: sticky;
+                            top: 0;
+                            left: 0;
+                        }
+
+                    #about {
+                        height: 90vh;
+                        width: 100%;
+                        padding: 0 20px;
+ 
+                    }
+                    
+                    #navbar li {
+                        list-style: none;
+                        padding: 0 10px;
+                    }
+                    #navbar li a {
+                        text-decoration: none;
+                        font-size: 12px;
+                        font-weight: bold;
+                        color: #f79521;
+                        transition: 0.3s ease;
+                    }
+                    h1 {
+                        font-size: 30px;
+                        line-height: 30px;
+                         ;
+                    }
+                    
+                    h2 {
+                        font-size: 26px;
+                        line-height: 26px;
+                         
+                    }
+                    
+                    h3 {
+                        font-size: 20px;
+                        line-height: 20px;
+                        
+                    }
+                    
+                    h4 {
+                        font-size: 18px;
+                        line-height: 18px;
+                      
+                    }
+                    
+                    h6 {
+                        font-weight: 700;
+                        font-size: 12px;
+                    }
+                    
                     }
