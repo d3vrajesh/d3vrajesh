@@ -196,7 +196,7 @@ body {
 }
 
 .bg-dark {
-    background-color: #434e57;
+
     width: 100%;
     padding: 30px;
     vertical-align: middle;
@@ -429,4 +429,45 @@ body {
     100% {
         transform: rotate(360deg);
     }
+}
+
+
+/*service list manual  */
+.service-container-main {
+    width: 100%;
+    display: table;
+    align-items: center;
+    float: left;
+
+}
+
+.servies-list-box {
+    width: 33%;
+    border: 10px;
+    padding: 15px;
+
+    border: none;
+    align-items: center;
+
+    display: flex;
+
+    flex-direction: column;
+
+
+}
+
+.service-img {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    border: 2px solid #f79521;
+    padding-inline-start: 5px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.center {
+
+    margin: auto;
+    width: 60%;
 }
