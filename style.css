@@ -136,6 +136,7 @@ body {
     padding: 30px;
     height: auto;
     display: flex;
+    justify-content: flex-end;
     /* Should be removed. Only for demonstration */
 }
 
