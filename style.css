@@ -168,7 +168,7 @@ body {
     padding: 30px 0 30px 0;
     height: auto;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     /* Should be removed. Only for demonstration */
 }
 
@@ -352,12 +352,15 @@ body {
     }
 }
 
-.solar-right {
+.solar-text {
     height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
+
+
 
 /*----Solar CSS--*/
 .solar-system {
@@ -503,7 +506,6 @@ body {
 
 
 
-
 @media screen and (max-width: 600px) {
 
     #services {
@@ -541,7 +543,10 @@ body {
 
     .bg-dark {
         width: 100%;
+        height: auto;
         padding: 0;
+
+        justify-content: center;
     }
 
 
