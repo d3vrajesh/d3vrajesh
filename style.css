@@ -392,7 +392,10 @@ body {
     content: '';
     width: 60px;
     height: 60px;
-    background-image: url(https://d3vrajesh.github.io/d3vrajesh/docs/assets/images/logo-icon.png);
+    background-image: url(https://d3vrajesh.github.io/d3vrajesh/docs/assets/images/logo-icon.jpg);
+    /*  background-image: url(https://d3vrajesh.github.io/d3vrajesh/docs/assets/images/logo-icon.png); 
+    object-fit: cover;
+    */
     border-radius: 50%;
     position: absolute;
     left: -2rem;
